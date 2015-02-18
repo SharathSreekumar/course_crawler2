@@ -1,0 +1,76 @@
+html,body
+{
+    width:100%;
+    height:100%;
+}
+
+.company 
+{
+  margin-top: -5px;
+  float: left;
+  font-family: 'Trebuchet MS','Lota','Montserrat','sans-serif';
+  color: white;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+ .logo {
+    margin-top: -8px;
+    float: none;
+  }
+
+.ima1
+{
+    background:url(./images/nyc_public_library.jpg) no-repeat;
+    background-attachment:local;
+    height:75%;
+    width:100%;
+    -webkit-background-size: cover; /*web kit*/
+    -moz-background-size: cover;    /*mozilla */
+    -o-background-size: cover;      /*opera*/
+    background-size:cover;
+    position:relative;
+    overflow: hidden;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.ima1 p
+{
+    color:#D3D3D3;
+	font-size:40px;
+	font-family:'Lota','Montserrat','Trebuchet MS','sans-serif';
+	font-weight:bold;
+	text-align:left;
+}
+
+#link_distxt
+{
+    text-align: left;
+    font-size:20px;
+}
+
+#link_dis1
+{
+    font-size:20px;
+	font-family:'Lota','Montserrat','Trebuchet MS','sans-serif';
+    text-align: right;
+}
+
+.navbar-form .form-control 
+{
+    display: inline-block;
+    width: 350px;
+    vertical-align: middle;
+}
+
+.foo
+{
+	color:#2F4F4F;
+	font-size:14px;
+	font-family: 'Montserrat','Trebuchet MS','sans-serif';
+	font-weight:bold;
+	text-align:center;
+}

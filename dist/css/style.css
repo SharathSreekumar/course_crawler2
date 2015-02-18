@@ -1,0 +1,211 @@
+html,body
+{
+    height:100%;
+    width:100%;
+}
+
+body
+{
+    background:-webkit-linear-gradient(left,#FFFFFF,#989898,#FFFFFF);
+    background: -o-linear-gradient(left,#FFFFFF,#989898,#FFFFFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#FFFFFF,#989898,#FFFFFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left,#FFFFFF,#989898,#FFFFFF);
+}
+
+.lisclr
+{
+    background-color: red;
+}
+
+.btn-primary1 
+{
+    color: #000000;
+    background-color: transparent;
+    border-color: #000000;
+    /*opacity:1;*/
+}
+
+.btt
+{
+    text-align: center;
+    
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: transparent;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.ima
+{
+    padding-top:-10px;
+    height:40px;
+}
+
+#intro
+{
+    background:url(../../DSC_1873.jpg) no-repeat;
+    background-attachment: fixed;
+    height:75%;
+    width:100%;
+    -webkit-background-size: cover; /*web kit*/
+    -moz-background-size: cover;    /*mozilla */
+    -o-background-size: cover;      /*opera*/
+    background-size:cover;
+    position:relative;
+    overflow: hidden;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+    
+}
+
+#intro h1
+{
+    text-align: center;
+    color: black;
+    font-family:'Lota','Montserrat','Trebuchet MS','sans-serif';
+    text-shadow:5px 5px 5px gray;
+    font-size: 100px;
+}
+
+#proj
+{
+    background:url(../../web-design.jpg) no-repeat;
+    background-attachment: fixed;
+    height:70%;
+    width:100%;
+    -webkit-background-size: cover; /*web kit*/
+    -moz-background-size: cover;    /*mozilla */
+    -o-background-size: cover;      /*opera*/
+    background-size:cover;
+    position:relative;
+    overflow: hidden;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.progre
+{
+    width:60%;
+    
+}
+
+.progre p
+{
+    text-align: center;
+}
+
+.imgsize
+{
+    position: relative;
+    bottom: 10%;
+}
+#proj h1
+{
+    text-align: center;
+    color: black;
+    font-family:'Lota','Montserrat','Trebuchet MS','sans-serif';
+    text-shadow:5px 5px 5px gray;
+    font-size: 100px;
+}
+
+#proj2
+{
+    background:url(../../languages.png) no-repeat;
+    background-attachment: fixed;
+    height:70%;
+    width:100%;
+    -webkit-background-size: cover; /*web kit*/
+    -moz-background-size: cover;    /*mozilla */
+    -o-background-size: cover;      /*opera*/
+    background-size:cover;
+    position:relative;
+    overflow: hidden;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+}
+
+#proj2 h1
+{
+    text-align: center;
+    color: black;
+    font-family:'Lota','Montserrat','Trebuchet MS','sans-serif';
+    text-shadow:5px 5px 5px gray;
+    font-size: 100px;
+}
+.text-center
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.nav-fillpath a {
+	width: 100px;
+	height: 100px;
+}
+
+.nav-fillpath .icon-wrap {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.nav-fillpath a::before,
+.nav-fillpath a::after,
+.nav-fillpath .icon-wrap::before,
+.nav-fillpath .icon-wrap::after {
+	position: absolute;
+	left: 50%;
+	width: 3px;
+	height: 50%;
+	background: #566475;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/*section.module.parallax 
+{
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.module.parallax h1 
+{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax-1 
+{
+  background-image: url(../../DSC_1873.jpg);
+}*/
